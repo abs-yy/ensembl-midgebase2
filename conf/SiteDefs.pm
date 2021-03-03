@@ -25,15 +25,21 @@ sub update_conf {
     ];
     $SiteDefs::ASSEMBLY_GROUP_B_TITLE = 'Chironomus';
     $SiteDefs::ASSEMBLY_GROUP_B_TEMPLATE = '_fav_template';
+    
     $SiteDefs::ASSEMBLY_GROUP_C = [
-            'Belgica_antarctica',
+            'Belgica_antarctica'
+    ];
+    $SiteDefs::ASSEMBLY_GROUP_C_TITLE = 'Other Chironomidae';
+    $SiteDefs::ASSEMBLY_GROUP_C_TEMPLATE = '_fav_template';
+    
+    $SiteDefs::ASSEMBLY_GROUP_D = [
             'Aedes_aegypti',
             'Anopheles_gambiae',
             'Culex_quinquefasciatus', 
             'Drosophila_melanogaster'
     ];
-    $SiteDefs::ASSEMBLY_GROUP_C_TITLE = 'Other Diptera';
-    $SiteDefs::ASSEMBLY_GROUP_C_TEMPLATE = '_fav_template';
+    $SiteDefs::ASSEMBLY_GROUP_D_TITLE = 'Other Diptera';
+    $SiteDefs::ASSEMBLY_GROUP_D_TEMPLATE = '_fav_template';
   
 }
 1;
